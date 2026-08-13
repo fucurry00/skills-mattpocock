@@ -1,0 +1,12 @@
+{
+  "name": "writing-for-agents",
+  "description": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.",
+  "version": "1.2.3",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev"
+  },
+  "homepage": "https://www.aihero.dev/s/skills-newsletter",
+  "repository": "https://github.com/mattpocock/skills",
+  "license": "MIT"
+}

@@ -23,10 +23,7 @@
     },
     {
       "name": "ask-matt",
-      "source": "./skills/engineering",
-      "skills": [
-        "./ask-matt"
-      ],
+      "source": "./plugins/ask-matt",
       "description": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
       "version": "1.2.3",
       "author": {
@@ -38,10 +35,7 @@
     },
     {
       "name": "diagnosing-bugs",
-      "source": "./skills/engineering",
-      "skills": [
-        "./diagnosing-bugs"
-      ],
+      "source": "./plugins/diagnosing-bugs",
       "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
       "version": "1.2.3",
       "author": {
@@ -53,10 +47,7 @@
     },
     {
       "name": "grill-with-docs",
-      "source": "./skills/engineering",
-      "skills": [
-        "./grill-with-docs"
-      ],
+      "source": "./plugins/grill-with-docs",
       "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
       "version": "1.2.3",
       "author": {
@@ -68,10 +59,7 @@
     },
     {
       "name": "triage",
-      "source": "./skills/engineering",
-      "skills": [
-        "./triage"
-      ],
+      "source": "./plugins/triage",
       "description": "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.",
       "version": "1.2.3",
       "author": {
@@ -83,10 +71,7 @@
     },
     {
       "name": "improve-codebase-architecture",
-      "source": "./skills/engineering",
-      "skills": [
-        "./improve-codebase-architecture"
-      ],
+      "source": "./plugins/improve-codebase-architecture",
       "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
       "version": "1.2.3",
       "author": {
@@ -98,10 +83,7 @@
     },
     {
       "name": "setup-matt-pocock-skills",
-      "source": "./skills/engineering",
-      "skills": [
-        "./setup-matt-pocock-skills"
-      ],
+      "source": "./plugins/setup-matt-pocock-skills",
       "description": "Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
       "version": "1.2.3",
       "author": {
@@ -113,10 +95,7 @@
     },
     {
       "name": "tdd",
-      "source": "./skills/engineering",
-      "skills": [
-        "./tdd"
-      ],
+      "source": "./plugins/tdd",
       "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
       "version": "1.2.3",
       "author": {
@@ -128,10 +107,7 @@
     },
     {
       "name": "to-spec",
-      "source": "./skills/engineering",
-      "skills": [
-        "./to-spec"
-      ],
+      "source": "./plugins/to-spec",
       "description": "Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.",
       "version": "1.2.3",
       "author": {
@@ -143,10 +119,7 @@
     },
     {
       "name": "to-tickets",
-      "source": "./skills/engineering",
-      "skills": [
-        "./to-tickets"
-      ],
+      "source": "./plugins/to-tickets",
       "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in one file per ticket locally, or native blocking links on a real tracker.",
       "version": "1.2.3",
       "author": {
@@ -158,10 +131,7 @@
     },
     {
       "name": "wayfinder",
-      "source": "./skills/engineering",
-      "skills": [
-        "./wayfinder"
-      ],
+      "source": "./plugins/wayfinder",
       "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
       "version": "1.2.3",
       "author": {
@@ -173,10 +143,7 @@
     },
     {
       "name": "implement",
-      "source": "./skills/engineering",
-      "skills": [
-        "./implement"
-      ],
+      "source": "./plugins/implement",
       "description": "Implement a piece of work based on a spec or set of tickets.",
       "version": "1.2.3",
       "author": {
@@ -188,10 +155,7 @@
     },
     {
       "name": "prototype",
-      "source": "./skills/engineering",
-      "skills": [
-        "./prototype"
-      ],
+      "source": "./plugins/prototype",
       "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
       "version": "1.2.3",
       "author": {
@@ -203,10 +167,7 @@
     },
     {
       "name": "research",
-      "source": "./skills/engineering",
-      "skills": [
-        "./research"
-      ],
+      "source": "./plugins/research",
       "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
       "version": "1.2.3",
       "author": {
@@ -218,10 +179,7 @@
     },
     {
       "name": "domain-modeling",
-      "source": "./skills/engineering",
-      "skills": [
-        "./domain-modeling"
-      ],
+      "source": "./plugins/domain-modeling",
       "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.",
       "version": "1.2.3",
       "author": {
@@ -233,10 +191,7 @@
     },
     {
       "name": "codebase-design",
-      "source": "./skills/engineering",
-      "skills": [
-        "./codebase-design"
-      ],
+      "source": "./plugins/codebase-design",
       "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
       "version": "1.2.3",
       "author": {
@@ -248,10 +203,7 @@
     },
     {
       "name": "code-review",
-      "source": "./skills/engineering",
-      "skills": [
-        "./code-review"
-      ],
+      "source": "./plugins/code-review",
       "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\".",
       "version": "1.2.3",
       "author": {
@@ -263,10 +215,7 @@
     },
     {
       "name": "resolving-merge-conflicts",
-      "source": "./skills/engineering",
-      "skills": [
-        "./resolving-merge-conflicts"
-      ],
+      "source": "./plugins/resolving-merge-conflicts",
       "description": "Use when you need to resolve an in-progress git merge/rebase conflict.",
       "version": "1.2.3",
       "author": {
@@ -278,10 +227,7 @@
     },
     {
       "name": "wizard",
-      "source": "./skills/engineering",
-      "skills": [
-        "./wizard"
-      ],
+      "source": "./plugins/wizard",
       "description": "Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. Don't invoke this for steps the agent can perform itself.",
       "version": "1.2.3",
       "author": {
@@ -293,10 +239,7 @@
     },
     {
       "name": "grill-me",
-      "source": "./skills/productivity",
-      "skills": [
-        "./grill-me"
-      ],
+      "source": "./plugins/grill-me",
       "description": "A relentless interview to sharpen a plan or design.",
       "version": "1.2.3",
       "author": {
@@ -308,10 +251,7 @@
     },
     {
       "name": "grilling",
-      "source": "./skills/productivity",
-      "skills": [
-        "./grilling"
-      ],
+      "source": "./plugins/grilling",
       "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
       "version": "1.2.3",
       "author": {
@@ -323,10 +263,7 @@
     },
     {
       "name": "handoff",
-      "source": "./skills/productivity",
-      "skills": [
-        "./handoff"
-      ],
+      "source": "./plugins/handoff",
       "description": "Compact the current conversation into a handoff document for another agent to pick up.",
       "version": "1.2.3",
       "author": {
@@ -338,10 +275,7 @@
     },
     {
       "name": "teach",
-      "source": "./skills/productivity",
-      "skills": [
-        "./teach"
-      ],
+      "source": "./plugins/teach",
       "description": "Teach the user a new skill or concept, within this workspace.",
       "version": "1.2.3",
       "author": {
@@ -353,10 +287,7 @@
     },
     {
       "name": "to-questionnaire",
-      "source": "./skills/productivity",
-      "skills": [
-        "./to-questionnaire"
-      ],
+      "source": "./plugins/to-questionnaire",
       "description": "Turn a decision you can't fully answer into a questionnaire for someone else to fill in.",
       "version": "1.2.3",
       "author": {
@@ -368,10 +299,7 @@
     },
     {
       "name": "wait-what",
-      "source": "./skills/productivity",
-      "skills": [
-        "./wait-what"
-      ],
+      "source": "./plugins/wait-what",
       "description": "Stop. That last message did not land — re-pitch it.",
       "version": "1.2.3",
       "author": {
@@ -383,10 +311,7 @@
     },
     {
       "name": "writing-for-agents",
-      "source": "./skills/productivity",
-      "skills": [
-        "./writing-for-agents"
-      ],
+      "source": "./plugins/writing-for-agents",
       "description": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.",
       "version": "1.2.3",
       "author": {

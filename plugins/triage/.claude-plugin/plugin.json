@@ -1,0 +1,12 @@
+{
+  "name": "triage",
+  "description": "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.",
+  "version": "1.2.3",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev"
+  },
+  "homepage": "https://www.aihero.dev/s/skills-newsletter",
+  "repository": "https://github.com/mattpocock/skills",
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tdd",
+  "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+  "version": "1.2.3",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev"
+  },
+  "homepage": "https://www.aihero.dev/s/skills-newsletter",
+  "repository": "https://github.com/mattpocock/skills",
+  "license": "MIT"
+}

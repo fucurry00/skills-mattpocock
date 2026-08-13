@@ -1,0 +1,12 @@
+{
+  "name": "ask-matt",
+  "description": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
+  "version": "1.2.3",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev"
+  },
+  "homepage": "https://www.aihero.dev/s/skills-newsletter",
+  "repository": "https://github.com/mattpocock/skills",
+  "license": "MIT"
+}

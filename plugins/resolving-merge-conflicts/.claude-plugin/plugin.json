@@ -1,0 +1,12 @@
+{
+  "name": "resolving-merge-conflicts",
+  "description": "Use when you need to resolve an in-progress git merge/rebase conflict.",
+  "version": "1.2.3",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev"
+  },
+  "homepage": "https://www.aihero.dev/s/skills-newsletter",
+  "repository": "https://github.com/mattpocock/skills",
+  "license": "MIT"
+}
