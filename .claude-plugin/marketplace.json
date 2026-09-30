@@ -8,8 +8,14 @@
   "plugins": [
     {
       "name": "mattpocock-skills",
-      "source": "./",
+      "source": "./plugins/mattpocock-skills",
       "description": "Matt Pocock's agent skills for real engineering: grilling, spec/ticket flows, TDD, code review, domain modelling and more. Plug-and-play, not vibe coding.",
+      "version": "1.2.3",
+      "author": {
+        "name": "Matt Pocock",
+        "url": "https://www.aihero.dev"
+      },
+      "license": "MIT",
       "category": "engineering",
       "keywords": [
         "engineering",
@@ -154,6 +160,18 @@
       "category": "engineering"
     },
     {
+      "name": "implement-spec",
+      "source": "./plugins/implement-spec",
+      "description": "Implement the result of /to-spec and /to-tickets in code.",
+      "version": "1.2.3",
+      "author": {
+        "name": "Matt Pocock",
+        "url": "https://www.aihero.dev"
+      },
+      "license": "MIT",
+      "category": "engineering"
+    },
+    {
       "name": "prototype",
       "source": "./plugins/prototype",
       "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
@@ -180,7 +198,7 @@
     {
       "name": "domain-modeling",
       "source": "./plugins/domain-modeling",
-      "description": "Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a CONTEXT.md, or recording or editing an ADR.",
+      "description": "Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR.",
       "version": "1.2.3",
       "author": {
         "name": "Matt Pocock",
@@ -214,9 +232,21 @@
       "category": "engineering"
     },
     {
-      "name": "resolving-merge-conflicts",
-      "source": "./plugins/resolving-merge-conflicts",
-      "description": "Use when you need to resolve an in-progress git merge/rebase conflict.",
+      "name": "pr",
+      "source": "./plugins/pr",
+      "description": "Use when writing a PR body.",
+      "version": "1.2.3",
+      "author": {
+        "name": "Matt Pocock",
+        "url": "https://www.aihero.dev"
+      },
+      "license": "MIT",
+      "category": "engineering"
+    },
+    {
+      "name": "retro",
+      "source": "./plugins/retro",
+      "description": "Conduct a retrospective on a coding session.",
       "version": "1.2.3",
       "author": {
         "name": "Matt Pocock",

@@ -8,5 +8,9 @@
   },
   "homepage": "https://www.aihero.dev/s/skills-newsletter",
   "repository": "https://github.com/mattpocock/skills",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": [
+    "domain-modeling",
+    "grilling"
+  ]
 }

@@ -1,6 +1,6 @@
 {
-  "name": "resolving-merge-conflicts",
-  "description": "Use when you need to resolve an in-progress git merge/rebase conflict.",
+  "name": "retro",
+  "description": "Conduct a retrospective on a coding session.",
   "version": "1.2.3",
   "author": {
     "name": "Matt Pocock",
