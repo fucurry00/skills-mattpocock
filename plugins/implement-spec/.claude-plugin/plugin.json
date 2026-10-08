@@ -1,7 +1,7 @@
 {
   "name": "implement-spec",
   "description": "Implement the result of /to-spec and /to-tickets in code.",
-  "version": "1.2.3",
+  "version": "1.3.1",
   "author": {
     "name": "Matt Pocock",
     "url": "https://www.aihero.dev"

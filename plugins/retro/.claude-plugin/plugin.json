@@ -1,7 +1,7 @@
 {
   "name": "retro",
   "description": "Conduct a retrospective on a coding session.",
-  "version": "1.2.3",
+  "version": "1.3.1",
   "author": {
     "name": "Matt Pocock",
     "url": "https://www.aihero.dev"
